@@ -1,0 +1,24 @@
+{
+	"name": "verbi/yii2-content-filter",
+	"description": "Yii2 Content Filter Extension.",
+	"keywords": ["yii2", "extension", "content filter"],
+	"type": "yii2-extension",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Philip Verbist",
+			"email": "philip.verbist@gmail.com"
+		}
+	],
+	"support": {
+		"source": "https://github.com/verbi/yii2-content-filter"
+	},
+        "require": {
+            "verbi/yii2-helpers": ">=1.2.0"
+        },
+	"autoload": {
+		"psr-4": {
+			"verbi\\yii2ContentFilter\\": "src/"
+		}
+	}
+}
